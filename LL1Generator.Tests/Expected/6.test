@@ -1,0 +1,11 @@
+S -> A B C $ / f
+A -> f E / f
+E -> a E / a
+E -> & / b, c, $
+B -> & / c, $
+B -> b D / b
+C -> F / c, $
+F -> c F / c
+F -> & / $
+D -> A / f
+D -> B / b, c, $

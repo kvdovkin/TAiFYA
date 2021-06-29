@@ -1,0 +1,7 @@
+F -> A $ / b, a
+A -> b / b
+A -> a D / a
+B -> b / b
+C -> b c / b
+D -> C / b
+D -> B / b

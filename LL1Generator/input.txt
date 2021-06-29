@@ -1,0 +1,9 @@
+<entry>	->	<expression> $
+<value>	->	id | !float | !int
+<expression>	->	<expression_enum> <expression_summ>
+<expression_enum>	->	<expression_val> <expression_multi>
+<expression_summ>	->	<summ_op> <expression_enum> <expression_summ> | e
+<expression_multi>	->	<multi_op> <expression_val> <expression_multi> | e
+<expression_val>	->	- <expression_val> | <value> | ( <expression> )
+<multi_op>	->	* | /
+<summ_op>	->	- | +
